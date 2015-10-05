@@ -1,16 +1,18 @@
 #!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
 
-$LOAD_PATH << File.expand_path('../lib', __FILE__)
+$LOAD_PATH << File.expand_path('../../lib', __FILE__)
 
 require 'json'
 require 'Trooper'
 require 'optparse'
+require 'Traveller'
 
 troop_list = Hash.new
 unit_toe = Hash.new
 format = 'text'
 
-def team_as_text(designation, members, troop_list, format)
+def show_team(designation, members, troop_list, format='text')
   ordinals = %w[ HQ 1st 2nd 3rd 4th 5th 6th 7th 8th 9th ]
   unit = Hash.new
   unit['designation'] = designation
@@ -23,6 +25,9 @@ def team_as_text(designation, members, troop_list, format)
     unit_member = Trooper.new(troop_list[member])
     total_morale += unit_member.trooper_morale?.to_i
     unit_members << unit_member.trooper_text
+    #unit_member = Traveller.write(troop_list[member], 'hash')
+    #total_morale += unit_member['morale'].to_i
+    #unit_members << Traveller.write(unit_member, 'soldier')
   end
   unit_morale = total_morale.fdiv(members.count).round
 
@@ -85,7 +90,7 @@ else
   puts
 
   unit_toe['teams'].sort.each do |key, value|
-    team_as_text(key, value, troop_list,format)
+    show_team(key, value, troop_list, format)
   end
 end
 #<jhass> leitz: great. Note that we tend to leave get_ prefixes off in ruby and use foo? instead of is_foo

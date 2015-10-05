@@ -1,8 +1,6 @@
 class Trooper
 
   def initialize(trooper)
-#    this_trooper = Hash.new
-#    this_trooper = trooper[1]
     @rank = trooper['rank']
     @first_name = trooper['first_name']
     @last_name = trooper['last_name']
@@ -17,7 +15,7 @@ class Trooper
   end 
 
   def trooper_text
-    return "#{@rank} #{@first_name} #{@last_name}  #{@upp} #{@skills} #{@morale} #{@wound}"
+    return "#{@rank} #{@first_name} #{@last_name} #{@skills} #{@morale}"
   end
   
   def trooper_morale?

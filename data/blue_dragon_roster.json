@@ -8,7 +8,7 @@
     "political": "MM",
     "gender": "F",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Prevot",
     "upp": "59755A",
     "first_name": "Cecilia"
   },
@@ -49,7 +49,7 @@
     "rank": "CPL",
     "last_name": "Forstrom",
     "upp": "9889A4",
-    "first_name": "FNU"
+    "first_name": "Alexander"
   },
   "51": {
     "llp": "Doer",
@@ -65,7 +65,7 @@
     "first_name": "Phyllis"
   },
   "0": {
-    "llp": "Unk",
+    "llp": "Mover",
     "skill_line": "Admin-0,Blade-1,Brawling-1,Computer-0,Electronics-0,Gambling-0,GunCgt(Energy)-2,Leader-0,Medical-0,Mechanical-0,Tactics-0,VaccSuit-1,Vehicle(Grav)-0",
     "camp_m_raid_line": "1,1,1,1",
     "age": "22",
@@ -86,7 +86,7 @@
     "political": "MM",
     "gender": "F",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "McDaniel",
     "upp": "77AA69",
     "first_name": "Isabella"
   },
@@ -283,15 +283,15 @@
     "first_name": "Nathanel"
   },
   "39": {
-    "llp": "Cbt-3,Tactics",
-    "skill_line": "Gun",
+    "llp": "Pleaser",
+    "skill_line": "GunCbt-3,Tactics-1",
     "camp_m_raid_line": "5,7,5,6,PH,MCUF",
     "age": "31",
     "morale": "10",
     "political": "MM",
     "gender": "M",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Moens",
     "upp": "7A755A",
     "first_name": "Petter"
   },
@@ -392,7 +392,7 @@
     "rank": "CPL",
     "last_name": "Asae",
     "upp": "969766",
-    "first_name": "FNU"
+    "first_name": "Jacinto"
   },
   "73": {
     "llp": "Influencer",
@@ -403,7 +403,7 @@
     "political": "G",
     "gender": "M",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Buisson",
     "upp": "96AA77",
     "first_name": "Jonatan"
   },
@@ -460,9 +460,9 @@
     "first_name": "Soveig"
   },
   "64": {
-    "llp": "7,4,11,3",
+    "llp": "Mover",
     "skill_line": "CbtRifleman-1,Electronics-1,HvyWeapons-1,Leader-1,Medic-1",
-    "camp_m_raid_line": null,
+    "camp_m_raid_line": "7,4,11,3",
     "age": "32",
     "morale": "10",
     "political": "PRMM",
@@ -470,7 +470,7 @@
     "rank": "LT",
     "last_name": "Arne",
     "upp": "BA68B9",
-    "first_name": "FNU"
+    "first_name": "Richard"
   },
   "58": {
     "llp": "Responder",
@@ -496,7 +496,7 @@
     "rank": "LCP",
     "last_name": "Isberg",
     "upp": "7D8875",
-    "first_name": "FNU"
+    "first_name": "Brant"
   },
   "107": {
     "llp": "Finisher",
@@ -629,15 +629,15 @@
     "first_name": "Cory"
   },
   "7": {
-    "llp": "Boat-1,Pistol-1",
-    "skill_line": "Recon-0,Ship's",
+    "llp": "Mover",
+    "skill_line": "Recon-0,ShipsBoat-1,Pistol-1",
     "camp_m_raid_line": "Responder",
     "age": "21",
     "morale": "10",
     "political": "G",
     "gender": "F",
     "rank": "LT",
-    "last_name": "LNU",
+    "last_name": "Wright",
     "upp": "366A75",
     "first_name": "Gabriela"
   },
@@ -715,31 +715,31 @@
     "rank": "CPL",
     "last_name": "Molen",
     "upp": "547484",
-    "first_name": "FNU"
+    "first_name": "Myrtle"
   },
   "4": {
-    "llp": null,
-    "skill_line": "9,9,6,10,MCG",
-    "camp_m_raid_line": null,
-    "age": "MM",
+    "llp": "Contemplator",
+    "skill_line": "",
+    "camp_m_raid_line": "",
+    "age": "23",
     "morale": "7",
-    "political": "M",
-    "gender": "Computer-4,Electronics-3",
+    "political": "MM",
+    "gender": "M",
     "rank": "NR",
-    "last_name": "23",
+    "last_name": "LNU",
     "upp": "Contemplator",
     "first_name": "Derek"
   },
   "43": {
-    "llp": "Cbt-2,Leader,Recon",
-    "skill_line": "Gun",
+    "llp": "Pleaser",
+    "skill_line": "GunCbt-2,Leader-1,Recon-1",
     "camp_m_raid_line": "5,8,5,7,PH,MCG",
     "age": "30",
     "morale": "10",
     "political": "MM",
     "gender": "M",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Brock",
     "upp": "A78657",
     "first_name": "Bertil"
   },
@@ -754,7 +754,8 @@
     "gender": "F",
     "rank": "CPL",
     "last_name": "Torsten",
-    "upp": "996B22-C",
+    "psi_rating": "C",
+    "upp": "996B22",
     "first_name": "Tala"
   },
   "40": {
@@ -1086,7 +1087,7 @@
     "rank": "LSG",
     "last_name": "Sundblad",
     "upp": "456B86",
-    "first_name": "FNU"
+    "first_name": "Donetta"
   },
   "123": {
     "llp": "Pleaser",
@@ -1124,7 +1125,7 @@
     "rank": "LSG",
     "last_name": "Cronbust",
     "upp": "D699A6",
-    "first_name": "FNU"
+    "first_name": "Catherina"
   },
   "31": {
     "llp": "Shaper",
@@ -1177,7 +1178,7 @@
     "rank": "CPL",
     "last_name": "Nygrin",
     "upp": "4958C5",
-    "first_name": "FNU"
+    "first_name": "Eldon"
   },
   "120": {
     "llp": "Finisher",
@@ -1239,7 +1240,7 @@
     "political": "MM",
     "gender": "F",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Diaz",
     "upp": "96AA77",
     "first_name": "Vega"
   },
@@ -1355,7 +1356,7 @@
     "rank": "LCP",
     "last_name": "Sjostom",
     "upp": "76CA54",
-    "first_name": "FNU"
+    "first_name": "Everette"
   },
   "53": {
     "llp": "Influencer",
@@ -1368,7 +1369,7 @@
     "rank": "LCP",
     "last_name": "Tornberg",
     "upp": "796392",
-    "first_name": "FNU"
+    "first_name": "Micheal"
   },
   "5": {
     "llp": "Responder",
@@ -1376,7 +1377,7 @@
     "camp_m_raid_line": "8,7,7,9,MCUF",
     "age": "29",
     "morale": "7",
-    "political": "Rep",
+    "political": "A",
     "gender": "M",
     "rank": "NR",
     "last_name": "Vaden",
@@ -1392,7 +1393,7 @@
     "political": "G",
     "gender": "M",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Barriere",
     "upp": "698587",
     "first_name": "Paul"
   },
@@ -1407,7 +1408,7 @@
     "rank": "CPL",
     "last_name": "Osterlund",
     "upp": "BB76A4",
-    "first_name": "FNU"
+    "first_name": "Renaldo"
   },
   "50": {
     "llp": "Responder",
@@ -1423,15 +1424,14 @@
     "first_name": "Dennis"
   },
   "2": {
-    "llp": "Cbt-1,Mechanical-1",
-    "skill_line": "AirRaft-2,Electronics-1,Gun",
-    "camp_m_raid_line": "Influencer",
+    "llp": "Influencer",
+    "skill_line": "AirRaft-2,Electronics-1,GunCbt-1,Mechanical-1",
     "age": "33",
     "morale": "10",
     "political": "MM",
     "gender": "F",
     "rank": "LT",
-    "last_name": "LNU",
+    "last_name": "Castillo",
     "upp": "679655",
     "first_name": "Johanna"
   },
@@ -1444,7 +1444,7 @@
     "political": "MM",
     "gender": "F",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Vigouroux",
     "upp": "855795",
     "first_name": "Karin"
   },
@@ -1639,7 +1639,7 @@
     "rank": "LSG",
     "last_name": "Birke",
     "upp": "9B48A6",
-    "first_name": "FNU"
+    "first_name": "Tiffiny"
   },
   "90": {
     "llp": "Pleaser",
@@ -1753,7 +1753,7 @@
     "rank": "CPL",
     "last_name": "Hellstrom",
     "upp": "B6C824",
-    "first_name": "FNU"
+    "first_name": "Titus"
   },
   "81": {
     "llp": "Leader",
@@ -1778,7 +1778,7 @@
     "rank": "LSG",
     "last_name": "Kron",
     "upp": "698356",
-    "first_name": "FNU"
+    "first_name": "Nelia"
   },
   "109": {
     "llp": "Finisher",
@@ -1841,7 +1841,7 @@
     "rank": "LCP",
     "last_name": "Linden",
     "upp": "B73A73",
-    "first_name": "FNU"
+    "first_name": "Danny"
   },
   "26": {
     "llp": "Doer",
@@ -1868,7 +1868,7 @@
     "rank": "CPL",
     "last_name": "Roden",
     "upp": "76A674",
-    "first_name": "FNU"
+    "first_name": "Lyn"
   },
   "9": {
     "llp": "Mover",
@@ -1916,7 +1916,7 @@
     "political": "M",
     "gender": "F",
     "rank": "NR",
-    "last_name": "LNU",
+    "last_name": "Clark",
     "upp": "783679",
     "first_name": "Agata"
   },
@@ -1971,7 +1971,7 @@
     "rank": "CPL",
     "last_name": "Bohr",
     "upp": "7869B4",
-    "first_name": "FNU"
+    "first_name": "Fritz"
   },
   "103": {
     "llp": "Finisher",
@@ -2010,7 +2010,7 @@
     "rank": "LCP",
     "last_name": "Brood",
     "upp": "D38686",
-    "first_name": "FNU"
+    "first_name": "Aurelio"
   },
   "60": {
     "llp": "Shaper",
